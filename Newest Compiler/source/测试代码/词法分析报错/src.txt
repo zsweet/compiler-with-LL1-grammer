@@ -1,0 +1,16 @@
+BEGIN
+int 1a ;  //变量不能以数字开头
+1a=1;
+float x;
+   x=5*-1a*1.5+2*8; 
+set window sizel; //不能用关键字作为变量名称
+int a;
+a=3+10;
+file "C:\Program Files"; 
+a=6*3;
+file "C:  ; //路径缺少右"
+int .b ;
+
+
+int ab&hd;
+END

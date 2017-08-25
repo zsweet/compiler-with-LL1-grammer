@@ -1,0 +1,9 @@
+BEGIN
+   int a ; 
+   a=1;
+   float x;
+   x=5*-a*1.5+2*8; 
+   point a,x;
+
+point a,x;
+

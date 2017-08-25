@@ -1,0 +1,127 @@
+BEGIN
+   int a ; 
+   a=0;
+   int b;
+   b=50;
+  reset;
+  
+  set point size 5;
+  set color 1,0,0;
+  while(a<b)   //1
+     if(a%2==0)
+       point a,0;
+     END
+     a=a+1;
+  END
+
+set color 1,1,0;
+  a=0;
+  while(a<b)//2
+     if(a%2==0)
+       point -a,0;
+     END
+     a=a+1;
+  END
+  
+set color 1,0,1;
+  a=0;
+  while(a<b)//3
+     if(a%2==0)
+       point 0,a;
+     END
+     a=a+1;
+  END
+
+set color 0,1,1;
+  a=0;
+  while(a<b)//4
+     if(a%2==0)
+       point 0,-a;
+     END
+     a=a+1;
+  END
+
+set color 1,1,0;
+  a=0;
+  while(a<b) //第一象限
+     point a,a;
+     a=a+3;
+  END
+set color 0,0,1;
+  a=1;  //第二象限
+  while (a<b)
+    point -a,a;
+    a=a+3;
+  END
+  
+set color 1,1,0;
+  a=1; //第三象限
+  while (a<b)
+    point -a,-a;
+    a=a+3;
+  END
+set color 0,0,1;   
+  a=1;
+  while (a<b)
+    point a,-a;
+    a=a+3;
+  END
+  
+ set color 1,1,0;
+  set line width 15;
+  delay 1;
+  rotate 90;
+  delay 1;
+  translate b,b;
+  delay 1;
+  translate 0,-50;
+
+  delay 1;
+  translate 0,-50;
+  delay 1;
+  translate -50,0;
+  delay 1;
+  translate -50,0;
+  delay 1;
+  translate 0,50;
+
+  delay 1;
+  translate 0,50;
+
+  delay 1;
+  translate 50,0;
+
+  delay 1;
+  translate 0,-50;
+  delay 1;
+  rotate 90;
+
+  delay 1;
+  scale 2.0,2.0;
+
+  set color 0,0,1;
+  delay 1;
+  line  50.0, 50, 50,-50;
+delay 1;
+  set color 0,1,0;
+  line  50,-50.00,-50,-50;
+delay 1;
+  set color 1,0,0;
+  line -50,-50,-50.000, 50;
+delay 1;
+  set color 1,1,0;
+  line -50, 50, 50, 50.0000; 
+
+  scale ;
+  move to 50,50;
+  delay 1;
+  move to 50,-50;
+  delay 1;
+  move to -50,-50;
+  delay 1;
+  move to -50,50;
+
+  
+  
+END
+

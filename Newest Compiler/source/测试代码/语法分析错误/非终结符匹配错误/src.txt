@@ -1,0 +1,5 @@
+BEGIN
+  if x(true)
+     point 2,3;
+END 
+

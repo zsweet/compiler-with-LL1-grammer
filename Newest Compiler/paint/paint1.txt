@@ -1,0 +1,58 @@
+reset;
+GET WINDOW SIZE;
+
+point 0,0;
+point 10,10;	point 20,10;	point 30,10;	point 40,10;	point 50,10;
+point -10,-10;	point -20,-10;	point -30,-10;	point -40,-10;	point -50,-10;
+
+point -10.5, 10.5;
+point -10.5, 20.5;
+point -10.5, 30.5;
+point -10.5, 40.5;
+point -10.5, 50.5;
+
+point 10.25, -10.25;
+point 10.25, -20.25;
+point 10.25, -30.25;
+point 10.25, -40.25;
+point 10.25, -50.25;
+
+
+line  30.0, 30, 30,-30;
+line  30,-30.00,-30,-30;
+line -30,-30,-30.000, 30;
+line -30, 30, 30, 30.0000;
+
+set point size 8;
+
+move to 50,50;		set color 1,0,0;		point;
+move to 50,-50;		set color 0,1,0;		point;
+move to -50,-50;	set color 0.0,0.0,1.0;		point;
+move to -50,50;		set color 0.25,0.25,0.25;	point;
+
+set line width 5;	
+move to 70,70;		set color 1,0,0;	line to 70,-70;
+move to 70,-70;		set color 0,1,0;	line to -70,-70;
+move to -70,-70;	set color 0,0,1;	line to -70,70;
+move to -70,70;		set color .75,.75,.75;	line to 70,70;
+
+set window size 200;	delay 1;
+set window size;	delay 1;
+
+rotate 45;	delay 1; 	rotate -90;	delay 1;
+
+scale 2,2;	delay 1;	
+scale 0.5,0.5;	delay 1;
+
+scale .5,.5;	delay 1;
+scale 2.0,0.5;	delay 1;
+scale 0.25,4.0;	delay 1;
+scale;		delay 1;
+
+translate 100,100;delay 1;
+translate -200,-200;delay 1;
+
+translate;	delay 1;
+
+
+scale 1,1;	delay 1;

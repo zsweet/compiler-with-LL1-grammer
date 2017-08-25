@@ -1,0 +1,17 @@
+BEGIN
+  int a;
+  float b;
+  a=111111111111111;
+  a=-2*2.4+-5;
+  a=2.0;
+  a=b;
+  // b=a/0;
+   if  (2%2==0)
+     b=a;
+     //x=x+11;
+   END 
+  int a ;
+  a = 5;
+  int a ;
+   a = 6;
+END

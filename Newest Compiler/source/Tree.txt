@@ -1,0 +1,334 @@
+语法分析结束，成功！！！
+生成的语法树为：
+-----------------------------------------------------------------------------
+父节点 -->   孩子节点 
+
+     program--> BEGIN  program2  
+    program2--> Stmt-List  END  
+   Stmt-List--> Stmt  Stmt-List2  
+        Stmt--> Declare-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+Declare-Stmt--> int  ID-List  ;  
+        Stmt--> Declare-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+     ID-List--> ID  ID-List2  
+Declare-Stmt--> float  ID-List  ;  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+    ID-List2--> ,  ID  ID-List2  
+     ID-List--> ID  ID-List2  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+    ID-List2--> @  
+    ID-List2--> ,  ID  ID-List2  
+        Expr--> Term  Expr2  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+    ID-List2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Expr--> Term  Expr2  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Stmt--> Repeat-Stmt  
+  Stmt-List2--> @  
+      Factor--> ID-NUM  
+       Term2--> Multi-OP  Factor  Term2  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Expr--> Term  Expr2  
+ Repeat-Stmt--> while  (  Compare-Exp  )  Stmt-List  END  
+      ID-NUM--> NUM  
+    Multi-OP--> /  
+      Factor--> (  Expr  )  
+       Term2--> Multi-OP  Factor  Term2  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+        Expr--> Term  Expr2  
+    Multi-OP--> *  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+     Comp-OP--> <  
+        Expr--> Term  Expr2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+        Term--> Factor  Term2  
+       Expr2--> Add-OP  Term  Expr2  
+      ID-NUM--> NUM  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Stmt--> If-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Add-OP--> +  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+        Stmt--> If-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+      ID-NUM--> -  ID-NUM2  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> END  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+        Stmt--> If-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+     ID-NUM2--> NUM  
+      ID-NUM--> -  ID-NUM2  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+     Comp-OP--> ==  
+        Expr--> Term  Expr2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> @  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> END  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+        Stmt--> Repeat-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+     ID-NUM2--> NUM  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Expr--> Term  Expr2  
+     Comp-OP--> ==  
+        Expr--> Term  Expr2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> @  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> END  
+ Repeat-Stmt--> while  (  Compare-Exp  )  Stmt-List  END  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Expr--> Term  Expr2  
+     Comp-OP--> ==  
+        Expr--> Term  Expr2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> @  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+ Assign-Stmt--> ID  =  Expr  ;  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Expr--> Term  Expr2  
+     Comp-OP--> <  
+        Expr--> Term  Expr2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+        Expr--> Term  Expr2  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+ Assign-Stmt--> ID  =  Expr  ;  
+        Stmt--> If-Stmt  
+  Stmt-List2--> Stmt  Stmt-List2  
+        Term--> Factor  Term2  
+       Expr2--> Add-OP  Term  Expr2  
+      ID-NUM--> NUM  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Expr--> Term  Expr2  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+        Stmt--> Assign-Stmt  
+  Stmt-List2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Add-OP--> +  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      ID-NUM--> NUM  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> Add-OP  Term  Expr2  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> else  Stmt-List  END  
+ Assign-Stmt--> ID  =  Expr  ;  
+      ID-NUM--> ID  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> NUM  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Add-OP--> +  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Expr--> Term  Expr2  
+     Comp-OP--> <  
+        Expr--> Term  Expr2  
+        Stmt--> Command  
+  Stmt-List2--> @  
+   Stmt-List--> Stmt  Stmt-List2  
+        Expr--> Term  Expr2  
+      ID-NUM--> NUM  
+      ID-NUM--> ID  
+      Factor--> ID-NUM  
+       Term2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+     Command--> Point-Com  ;  
+        Stmt--> If-Stmt  
+  Stmt-List2--> @  
+        Term--> Factor  Term2  
+       Expr2--> Add-OP  Term  Expr2  
+      ID-NUM--> NUM  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+   Point-Com--> point  Param-2  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Add-OP--> +  
+        Term--> Factor  Term2  
+       Expr2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+     Param-2--> ID-NUM  ,  ID-NUM  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> else  Stmt-List  END  
+      ID-NUM--> ID  
+      Factor--> ID-NUM  
+       Term2--> @  
+      ID-NUM--> ID  
+      ID-NUM--> ID  
+        Expr--> Term  Expr2  
+     Comp-OP--> <  
+        Expr--> Term  Expr2  
+        Stmt--> Command  
+  Stmt-List2--> @  
+   Stmt-List--> Stmt  Stmt-List2  
+      ID-NUM--> NUM  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+     Command--> Point-Com  ;  
+        Stmt--> If-Stmt  
+  Stmt-List2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+   Point-Com--> point  Param-2  
+     If-Stmt--> if  (  Compare-Exp  )  Stmt-List  If-Stmt2  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+     Param-2--> ID-NUM  ,  ID-NUM  
+ Compare-Exp--> Expr  Comp-OP  Expr  
+   Stmt-List--> Stmt  Stmt-List2  
+    If-Stmt2--> else  Stmt-List  END  
+      ID-NUM--> -  ID-NUM2  
+      ID-NUM--> ID  
+        Expr--> Term  Expr2  
+     Comp-OP--> <  
+        Expr--> Term  Expr2  
+        Stmt--> Command  
+  Stmt-List2--> @  
+   Stmt-List--> Stmt  Stmt-List2  
+     ID-NUM2--> ID  
+        Term--> Factor  Term2  
+       Expr2--> @  
+        Term--> Factor  Term2  
+       Expr2--> @  
+     Command--> Point-Com  ;  
+        Stmt--> Command  
+  Stmt-List2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+      Factor--> ID-NUM  
+       Term2--> @  
+   Point-Com--> point  Param-2  
+     Command--> Point-Com  ;  
+      ID-NUM--> ID  
+      ID-NUM--> NUM  
+     Param-2--> ID-NUM  ,  ID-NUM  
+   Point-Com--> point  Param-2  
+      ID-NUM--> -  ID-NUM2  
+      ID-NUM--> -  ID-NUM2  
+     Param-2--> ID-NUM  ,  ID-NUM  
+     ID-NUM2--> ID  
+     ID-NUM2--> ID  
+      ID-NUM--> ID  
+      ID-NUM--> -  ID-NUM2  
+     ID-NUM2--> ID  

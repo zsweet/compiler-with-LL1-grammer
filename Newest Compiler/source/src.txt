@@ -1,0 +1,32 @@
+BEGIN
+  int id1,id2;
+  float id3,id4;
+  id1=20/(-5+-0.5)*2;//测试警告
+  id2=id3;//测试警告
+  id3=0.0;
+  while(id2<12)//Repeat + IF测试
+    id1=0;
+    if(id2==3) id3=0.0; END
+    if(id2==6) id3=0.0; END
+    if(id2==9) id3=0.0; END
+    while(id1<25) 
+       id3=id3+4.5;
+       if(id2<3)//第一象限
+          point id1,id3;
+       else 
+         if(id2<6)//第二象限
+            point -id1,id3;  
+         else 
+           if(id2<9)//第三象限
+             point -id1,-id3;
+           else //第四象限
+             point id1,-id3;
+           END
+         END
+       END
+       id1=id1+5;//控制内层循环
+    END
+    id2=id2+1;//控制外层循环
+   END
+END
+

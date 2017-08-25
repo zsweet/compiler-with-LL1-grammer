@@ -1,0 +1,2064 @@
+字符栈入栈pragram
+
+当前栈为：program 
+字符出栈program
+字符栈入栈program2
+字符栈入栈BEGIN
+
+当前栈为：BEGIN program2 
+字符出栈BEGIN
+
+当前栈为：program2 
+字符出栈program2
+字符栈入栈END
+字符栈入栈Stmt-List
+
+当前栈为：Stmt-List END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Declare-Stmt
+
+当前栈为：Declare-Stmt Stmt-List2 END 
+字符出栈Declare-Stmt
+字符栈入栈;
+字符栈入栈ID-List
+字符栈入栈int
+
+当前栈为：int ID-List ; Stmt-List2 END 
+字符出栈int
+
+当前栈为：ID-List ; Stmt-List2 END 
+字符出栈ID-List
+字符栈入栈ID-List2
+字符栈入栈ID
+
+当前栈为：ID ID-List2 ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：ID-List2 ; Stmt-List2 END 
+字符出栈ID-List2
+字符栈入栈ID-List2
+字符栈入栈ID
+字符栈入栈,
+
+当前栈为：, ID ID-List2 ; Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID ID-List2 ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：ID-List2 ; Stmt-List2 END 
+字符出栈ID-List2
+
+当前栈为：@ ; Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Declare-Stmt
+
+当前栈为：Declare-Stmt Stmt-List2 END 
+字符出栈Declare-Stmt
+字符栈入栈;
+字符栈入栈ID-List
+字符栈入栈float
+
+当前栈为：float ID-List ; Stmt-List2 END 
+字符出栈float
+
+当前栈为：ID-List ; Stmt-List2 END 
+字符出栈ID-List
+字符栈入栈ID-List2
+字符栈入栈ID
+
+当前栈为：ID ID-List2 ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：ID-List2 ; Stmt-List2 END 
+字符出栈ID-List2
+字符栈入栈ID-List2
+字符栈入栈ID
+字符栈入栈,
+
+当前栈为：, ID ID-List2 ; Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID ID-List2 ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：ID-List2 ; Stmt-List2 END 
+字符出栈ID-List2
+
+当前栈为：@ ; Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+字符栈入栈Term2
+字符栈入栈Factor
+字符栈入栈Multi-OP
+
+当前栈为：Multi-OP Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Multi-OP
+字符栈入栈/
+
+当前栈为：/ Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈/
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈)
+字符栈入栈Expr
+字符栈入栈(
+
+当前栈为：( Expr ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈(
+
+当前栈为：Expr ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+
+当前栈为：Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Expr2
+字符栈入栈Expr2
+字符栈入栈Term
+字符栈入栈Add-OP
+
+当前栈为：Add-OP Term Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Add-OP
+字符栈入栈+
+
+当前栈为：+ Term Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈+
+
+当前栈为：Term Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+
+当前栈为：Expr2 ) Term2 Expr2 ; Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Term2 Expr2 ; Stmt-List2 END 
+
+当前栈为：) Term2 Expr2 ; Stmt-List2 END 
+字符出栈)
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+字符栈入栈Term2
+字符栈入栈Factor
+字符栈入栈Multi-OP
+
+当前栈为：Multi-OP Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Multi-OP
+字符栈入栈*
+
+当前栈为：* Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈*
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Repeat-Stmt
+
+当前栈为：Repeat-Stmt Stmt-List2 END 
+字符出栈Repeat-Stmt
+字符栈入栈END
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈while
+
+当前栈为：while ( Compare-Exp ) Stmt-List END Stmt-List2 END 
+字符出栈while
+
+当前栈为：( Compare-Exp ) Stmt-List END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈<
+
+当前栈为：< Expr ) Stmt-List END Stmt-List2 END 
+字符出栈<
+
+当前栈为：Expr ) Stmt-List END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List END Stmt-List2 END 
+
+当前栈为：) Stmt-List END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈==
+
+当前栈为：== Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈==
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+
+当前栈为：END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈==
+
+当前栈为：== Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈==
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+
+当前栈为：END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈==
+
+当前栈为：== Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈==
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+
+当前栈为：END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Repeat-Stmt
+
+当前栈为：Repeat-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Repeat-Stmt
+字符栈入栈END
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈while
+
+当前栈为：while ( Compare-Exp ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈while
+
+当前栈为：( Compare-Exp ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈<
+
+当前栈为：< Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈<
+
+当前栈为：Expr ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+字符栈入栈Expr2
+字符栈入栈Term
+字符栈入栈Add-OP
+
+当前栈为：Add-OP Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Add-OP
+字符栈入栈+
+
+当前栈为：+ Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈+
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈<
+
+当前栈为：< Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈<
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Command
+
+当前栈为：Command Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Command
+字符栈入栈;
+字符栈入栈Point-Com
+
+当前栈为：Point-Com ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Point-Com
+字符栈入栈Param-2
+字符栈入栈point
+
+当前栈为：point Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈point
+
+当前栈为：Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Param-2
+字符栈入栈ID-NUM
+字符栈入栈,
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：, ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+字符栈入栈Stmt-List
+字符栈入栈else
+
+当前栈为：else Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈else
+
+当前栈为：Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈<
+
+当前栈为：< Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈<
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Command
+
+当前栈为：Command Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Command
+字符栈入栈;
+字符栈入栈Point-Com
+
+当前栈为：Point-Com ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Point-Com
+字符栈入栈Param-2
+字符栈入栈point
+
+当前栈为：point Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈point
+
+当前栈为：Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Param-2
+字符栈入栈ID-NUM
+字符栈入栈,
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈ID
+
+当前栈为：ID , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：, ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+字符栈入栈Stmt-List
+字符栈入栈else
+
+当前栈为：else Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈else
+
+当前栈为：Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈If-Stmt
+
+当前栈为：If-Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt
+字符栈入栈If-Stmt2
+字符栈入栈Stmt-List
+字符栈入栈)
+字符栈入栈Compare-Exp
+字符栈入栈(
+字符栈入栈if
+
+当前栈为：if ( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈if
+
+当前栈为：( Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈(
+
+当前栈为：Compare-Exp ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Compare-Exp
+字符栈入栈Expr
+字符栈入栈Comp-OP
+字符栈入栈Expr
+
+当前栈为：Expr Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Comp-OP Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Comp-OP
+字符栈入栈<
+
+当前栈为：< Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈<
+
+当前栈为：Expr ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：) Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈)
+
+当前栈为：Stmt-List If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Command
+
+当前栈为：Command Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Command
+字符栈入栈;
+字符栈入栈Point-Com
+
+当前栈为：Point-Com ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Point-Com
+字符栈入栈Param-2
+字符栈入栈point
+
+当前栈为：point Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈point
+
+当前栈为：Param-2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Param-2
+字符栈入栈ID-NUM
+字符栈入栈,
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈ID
+
+当前栈为：ID , ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：, ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID-NUM ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈ID
+
+当前栈为：ID ; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：; Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：If-Stmt2 Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈If-Stmt2
+字符栈入栈END
+字符栈入栈Stmt-List
+字符栈入栈else
+
+当前栈为：else Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈else
+
+当前栈为：Stmt-List END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Command
+
+当前栈为：Command Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Command
+字符栈入栈;
+字符栈入栈Point-Com
+
+当前栈为：Point-Com ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Point-Com
+字符栈入栈Param-2
+字符栈入栈point
+
+当前栈为：point Param-2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈point
+
+当前栈为：Param-2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Param-2
+字符栈入栈ID-NUM
+字符栈入栈,
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM , ID-NUM ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID , ID-NUM ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：, ID-NUM ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈,
+
+当前栈为：ID-NUM ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID-NUM2
+字符栈入栈-
+
+当前栈为：- ID-NUM2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈-
+
+当前栈为：ID-NUM2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM2
+字符栈入栈ID
+
+当前栈为：ID ; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：; Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：END Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：END Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+字符栈入栈Expr2
+字符栈入栈Term
+字符栈入栈Add-OP
+
+当前栈为：Add-OP Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Add-OP
+字符栈入栈+
+
+当前栈为：+ Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈+
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END Stmt-List2 END Stmt-List2 END 
+
+当前栈为：END Stmt-List2 END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+字符栈入栈Stmt-List2
+字符栈入栈Stmt
+
+当前栈为：Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt
+字符栈入栈Assign-Stmt
+
+当前栈为：Assign-Stmt Stmt-List2 END Stmt-List2 END 
+字符出栈Assign-Stmt
+字符栈入栈;
+字符栈入栈Expr
+字符栈入栈=
+字符栈入栈ID
+
+当前栈为：ID = Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：= Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈=
+
+当前栈为：Expr ; Stmt-List2 END Stmt-List2 END 
+字符出栈Expr
+字符栈入栈Expr2
+字符栈入栈Term
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈ID
+
+当前栈为：ID Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+字符栈入栈Expr2
+字符栈入栈Term
+字符栈入栈Add-OP
+
+当前栈为：Add-OP Term Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Add-OP
+字符栈入栈+
+
+当前栈为：+ Term Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈+
+
+当前栈为：Term Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term
+字符栈入栈Term2
+字符栈入栈Factor
+
+当前栈为：Factor Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Factor
+字符栈入栈ID-NUM
+
+当前栈为：ID-NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈ID-NUM
+字符栈入栈NUM
+
+当前栈为：NUM Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈NUM
+
+当前栈为：Term2 Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Term2
+
+当前栈为：@ Expr2 ; Stmt-List2 END Stmt-List2 END 
+
+当前栈为：Expr2 ; Stmt-List2 END Stmt-List2 END 
+字符出栈Expr2
+
+当前栈为：@ ; Stmt-List2 END Stmt-List2 END 
+
+当前栈为：; Stmt-List2 END Stmt-List2 END 
+字符出栈;
+
+当前栈为：Stmt-List2 END Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END Stmt-List2 END 
+
+当前栈为：END Stmt-List2 END 
+字符出栈END
+
+当前栈为：Stmt-List2 END 
+字符出栈Stmt-List2
+
+当前栈为：@ END 
+
+当前栈为：END 
+字符出栈END

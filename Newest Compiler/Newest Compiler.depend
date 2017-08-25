@@ -1,0 +1,270 @@
+# depslib dependency file v1.0
+1435737812 source:c:\users\zsw\desktop\compiler\test\newest compiler\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	"myclass.h"
+	"scanner.h"
+	"parse.h"
+	"trans.h"
+	<fstream>
+	<stack>
+
+1435735896 c:\users\zsw\desktop\compiler\test\newest compiler\myclass.h
+	<iostream>
+
+1435736279 c:\users\zsw\desktop\compiler\test\newest compiler\parse.h
+	"myclass.h"
+	<iostream>
+	<stack>
+
+1435737843 c:\users\zsw\desktop\compiler\test\newest compiler\trans.h
+	"myclass.h"
+
+1435737757 c:\users\zsw\desktop\compiler\test\newest compiler\scanner.h
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<fstream>
+
+1435737461 source:c:\users\zsw\desktop\compiler\test\newest compiler\parse.cpp
+	"parse.h"
+	"myclass.h"
+	<iostream>
+	<stack>
+	<queue>
+	<fstream>
+
+1435737461 source:c:\users\zsw\desktop\compiler\test\newest compiler\scanner.cpp
+	"scanner.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<iomanip>
+	<stdlib.h>
+	<fstream>
+
+1435737461 source:c:\users\zsw\desktop\compiler\test\newest compiler\trans.cpp
+	"trans.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<fstream>
+
+1435828288 source:f:\compiler7.1\newest compiler\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	"myclass.h"
+	"scanner.h"
+	"parse.h"
+	"trans.h"
+	<fstream>
+	<stack>
+
+1435735898 f:\compiler7.1\newest compiler\myclass.h
+	<iostream>
+
+1435737758 f:\compiler7.1\newest compiler\scanner.h
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<fstream>
+
+1435736280 f:\compiler7.1\newest compiler\parse.h
+	"myclass.h"
+	<iostream>
+	<stack>
+
+1435737844 f:\compiler7.1\newest compiler\trans.h
+	"myclass.h"
+
+1435826832 source:f:\compiler7.1\newest compiler\parse.cpp
+	"parse.h"
+	"myclass.h"
+	<iostream>
+	<stack>
+	<iomanip>
+	<queue>
+	<fstream>
+
+1435828288 source:f:\compiler7.1\newest compiler\scanner.cpp
+	"scanner.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<iomanip>
+	<stdlib.h>
+	<fstream>
+
+1435826832 source:f:\compiler7.1\newest compiler\trans.cpp
+	"trans.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<fstream>
+
+1435737814 source:h:\compiler7.1\newest compiler\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	"myclass.h"
+	"scanner.h"
+	"parse.h"
+	"trans.h"
+	<fstream>
+	<stack>
+
+1435735898 h:\compiler7.1\newest compiler\myclass.h
+	<iostream>
+
+1435737758 h:\compiler7.1\newest compiler\scanner.h
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<fstream>
+
+1435736280 h:\compiler7.1\newest compiler\parse.h
+	"myclass.h"
+	<iostream>
+	<stack>
+
+1435737844 h:\compiler7.1\newest compiler\trans.h
+	"myclass.h"
+
+1435755500 source:h:\compiler7.1\newest compiler\parse.cpp
+	"parse.h"
+	"myclass.h"
+	<iostream>
+	<stack>
+	<iomanip>
+	<queue>
+	<fstream>
+
+1435737462 source:h:\compiler7.1\newest compiler\scanner.cpp
+	"scanner.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<iomanip>
+	<stdlib.h>
+	<fstream>
+
+1435764758 source:h:\compiler7.1\newest compiler\trans.cpp
+	"trans.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<fstream>
+
+1435828288 source:f:\compiler7.1\实验\上交\newest compiler\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	"myclass.h"
+	"scanner.h"
+	"parse.h"
+	"trans.h"
+	<fstream>
+	<stack>
+
+1435735898 f:\compiler7.1\实验\上交\newest compiler\myclass.h
+	<iostream>
+
+1435737758 f:\compiler7.1\实验\上交\newest compiler\scanner.h
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<fstream>
+
+1435736280 f:\compiler7.1\实验\上交\newest compiler\parse.h
+	"myclass.h"
+	<iostream>
+	<stack>
+
+1435737844 f:\compiler7.1\实验\上交\newest compiler\trans.h
+	"myclass.h"
+
+1435826832 source:f:\compiler7.1\实验\上交\newest compiler\parse.cpp
+	"parse.h"
+	"myclass.h"
+	<iostream>
+	<stack>
+	<iomanip>
+	<queue>
+	<fstream>
+
+1435828288 source:f:\compiler7.1\实验\上交\newest compiler\scanner.cpp
+	"scanner.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<iomanip>
+	<stdlib.h>
+	<fstream>
+
+1435826832 source:f:\compiler7.1\实验\上交\newest compiler\trans.cpp
+	"trans.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<fstream>
+
+1435828288 source:e:\学习\大作业设计\编译原理\编译原理\newest compiler\main.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	"myclass.h"
+	"scanner.h"
+	"parse.h"
+	"trans.h"
+	<fstream>
+	<stack>
+
+1435735898 e:\学习\大作业设计\编译原理\编译原理\newest compiler\myclass.h
+	<iostream>
+
+1435737758 e:\学习\大作业设计\编译原理\编译原理\newest compiler\scanner.h
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<fstream>
+
+1435736280 e:\学习\大作业设计\编译原理\编译原理\newest compiler\parse.h
+	"myclass.h"
+	<iostream>
+	<stack>
+
+1435737844 e:\学习\大作业设计\编译原理\编译原理\newest compiler\trans.h
+	"myclass.h"
+
+1491912911 source:e:\学习\大作业设计\编译原理\编译原理\newest compiler\parse.cpp
+	"parse.h"
+	"myclass.h"
+	<iostream>
+	<stack>
+	<iomanip>
+	<queue>
+	<fstream>
+
+1435828288 source:e:\学习\大作业设计\编译原理\编译原理\newest compiler\scanner.cpp
+	"scanner.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<iomanip>
+	<stdlib.h>
+	<fstream>
+
+1435826832 source:e:\学习\大作业设计\编译原理\编译原理\newest compiler\trans.cpp
+	"trans.h"
+	"myclass.h"
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+	<fstream>
+
